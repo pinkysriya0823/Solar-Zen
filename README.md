@@ -27,4 +27,4 @@ Try asking
 
 6.  "bye"
 
-View the website here:  https://sathwik9418.github.io/SolarZen-Uncease2k23/
+View the website here:  https://pinkysriya0823.github.io/Solar-Zen/
