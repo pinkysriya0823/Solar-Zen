@@ -1,0 +1,109 @@
+.title-text{
+    text-align: center;
+    padding-bottom: 70px;
+    padding-top: 25px;
+}
+.title-text p{
+    margin: auto;
+    color: green;
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+}
+.title-text p::after{
+    content: '';
+    width: 50px;
+    height: 35px;
+    background: linear-gradient(green,#fff);
+    position: absolute;
+    top: -20px;
+    left: 0;
+    z-index: -1;
+    transform: rotate(10deg);
+    border-top-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+}
+.title-text h1{
+    font-size: 50px;
+}
+#footer{
+    padding: 100px 0 20px;
+    background: #efefef;
+    position: relative;
+}
+.footer-row{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.footer-left,.footer-right{
+    flex-basis: 45%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.footer-right{
+    text-align: right;
+}
+.footer-row h1{
+    margin: 10px 0;
+}
+.footer-row p{
+    line-height: 35px;
+}
+.footer-left .fa,.footer-right .fa{
+    font-size: 20px;
+    color: #059baf;
+    margin: 10px;
+}
+.footerimg{
+
+}
+.socialmedia{
+    text-align: center;
+}
+.socialmedia .fa{
+    height: 40px;
+    width: 40px;
+    font-size: 20px;
+    line-height: 40px;
+    border: 1px solid #059baf;
+    margin: 40px 50px 0;
+    color: #059baf;
+    cursor: pointer;
+    transition: 0.5s; ;
+}
+.socialmedia .fa:hover{
+  background: #059baf;
+     color: #fff;
+     transform: translateY(-7px);
+ }
+ .socialmedia p{
+     font-size: 12px;
+     margin-top: 20px;
+ }
+ @media screen and (max-width: 770px){
+    .footer-left,.footer-right{
+        flex-basis: 100%;
+        font-size: 14px;
+       }
+       .footerimg{
+           top: 25%;
+       }
+
+
+ }
+
+ .card{
+   outline-color: #2D2727;
+   background-color: #efefef;
+   border-radius: 25px;
+   box-shadow: 3px 3px;
+ }
+ .card:hover{
+   transform:scale(1.1);
+   transition: all .3s ease-in-out;
+ }
